@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		/*body{
+			background-image: url(lampa_stena_kirpichnyj_137605_3840x2160.jpg);
+			background-repeat: no-repeat;
+		}*/
+		.container{
+			width: 1050px;
+			height: 2150px;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+			background: #fff;
+		}
+		.cho-boshlig{
+			width: 1050px;
+			height: 110px;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+		}
+		.chap-tomon{
+			float: left;
+			width: 465px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.ong-tomon{
+			float: left;
+			width: 580px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.rasm{
+			float: left;
+			width: 120px;
+			height: 110px;
+			/*border: 1px solid black;*/
+			background-image: url(saksa-1.jpg);
+			background-repeat: no-repeat;
+		}
+		.text{
+			float: left;
+			width: 320px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.text h1{
+			color: #5788d4;
+			font-family: "Tahoma";
+		}
+		.text h2{
+			color: #8dbf3f;
+			font-family: "Time New Roman"
+		}
+		.oon{
+			float: left;
+			width: 285px;
+			height: 60px;
+			margin-top: 20px;
+			/*border: 1px solid black;*/
+		}
+		.raqm{
+			float: left;
+			width: 285px;
+			height: 60px;
+			margin-top: 20px;
+			/*border: 1px solid black;*/
+		}
+		.text-p{
+			float: left;
+			width: 200px;
+			height: 30px;
+			margin-top: -20px;
+			margin-left: 16px;
+			/*border: 1px solid black;*/
+		}
+		/*.ra1{
+			float: left;
+			width: 30px;
+			height: 25px;
+			margin-top: 5px;
+			border: 1px solid black;
+			background-image: url("sals.jpg");
+			background-repeat: no-repeat;
+			background-size: ;
+		}*/
+		.containe2{
+			width: 1050px;
+			height: 100px;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+		}
+		.salom{
+			width: 1000px;
+			height: 80px;
+			margin-left: 25px;
+			margin-top: 5px;
+			/*border: 1px solid black;*/
+			background: #649ada;
+		}
+		.sal1{
+			float: left;
+			width: 100px;
+			height: 80px;
+			border: 1px solid #8eb8e5;
+			color: white;
+			font-size: 1.0em;
+			text-align: center;
+			line-height: 70px;
+		}
+		.sal2{
+			float: left;
+			width: 100px;
+			height: 80px;
+			border: 1px solid #8eb8e5;
+			color: white;
+			font-size: 1.0em;
+			text-align: center;
+			line-height: 70px;
+		}
+		.sal3{
+			float: left;
+			width: 100px;
+			height: 80px;
+			border: 1px solid #8eb8e5;
+			color: white;
+			font-size: 1.0em;
+			text-align: center;
+			line-height: 70px;
+		}
+		.sal4{
+			float: left;
+			width: 100px;
+			height: 80px;
+			border: 1px solid #8eb8e5;
+			color: white;
+			font-size: 1.0em;
+			text-align: center;
+			line-height: 70px;
+		}
+		.sal5{
+			float: left;
+			width: 100px;
+			height: 80px;
+			border: 1px solid #8eb8e5;
+			color: white;
+			font-size: 1.0em;
+			text-align: center;
+			line-height: 70px;
+		}
+		.x1{
+			width: 550px;
+			height: 80px;
+			margin-left: 240px;
+			/*border: 1px solid black;*/
+		}
+		.x1 div:hover{
+			background: #4880b7;
+		}
+		.container3{
+			width: 1050px;
+			height: 500px;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+		}
+		.bloc6558{
+			width: 1000px;
+			height: 500px;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+			background: #649ada;
+		}
+		.m{
+			float: left;
+			width: 465px;
+			height: 350px;
+			margin-left: 30px;
+			margin-top: 20px;
+			/*border: 1px solid black;*/
+		}
+		.rm{
+			float: left;
+			width: 495px;
+			height: 350px;
+			margin-top: 20px;
+			/*border: 1px solid black;*/
+		}
+		.fr{
+			float: left;
+			width: 285px;
+			height: 350px;
+			/*border: 1px solid black;*/
+			background-image: url("выаыв.jpg");
+		}
+		.fr2{
+			float: left;
+			width: 165px;
+			height: 350px;
+			margin-left: 9px;
+			/*border: 2px solid black;*/
+			background-image: url("fghfghfg.jpg");
+		}
+		.gh{
+			float: left;
+			width: 478px;
+			height: 120px;
+			margin-left: 9px;
+			/*border: 2px solid black;*/
+			background-image: url("fhfghfh.jpg");
+		}
+		.ge{
+			float: left;
+			width: 235px;
+			height: 220px;
+			margin-left: 9px;
+			margin-top: 10px;
+			/*border: 2px solid black;*/
+			/*background-image: url("dfgdg.jpg");*/
+			/*background-repeat: no-repeat;
+			background-size: 235px;*/
+		}
+		.go{
+			float: left;
+			width: 235px;
+			height: 220px;
+			margin-left: 9px;
+			margin-top: 10px;
+			/*border: 2px solid black;*/
+			/*background-image: url("dfhgdhfd.jpg");
+			background-repeat: no-repeat;*/
+		}
+		.pass{
+			float: left;
+			width: 1000px;
+			height: 130px;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+		}
+		.garipo{
+			width: 50px;
+			height: 50px;
+			/*border: 1px solid black;*/
+			margin-top: 40px;
+			margin-left: 30px;
+			background-image: url("icon ong.jpg");
+			background-repeat: no-repeat;
+			background-size: 50px;
+		}
+		.pass h4{
+			display: inline-block;
+			float: left;
+			width: 600px;
+			margin-left: 200px;
+			margin-top: -50px;	
+			text-align: center;
+			color: #fff;
+		}
+		.gari{
+			float: left;
+			width: 50px;
+			height: 50px;
+			/*border: 1px solid black;*/
+			margin-left: 120px;
+			margin-top: -50px;
+			background-image: url("icon chap.jpg");
+			background-repeat: no-repeat;
+			background-size: 50px;
+		}
+		.container4{
+			width: 1050px;
+			height: 60px;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+		}
+		.ruchka{
+			float: left;
+			width: 300px;
+			height: 50px;
+			margin: 1px;
+			margin-left: 25px;
+			/*border: 1px solid black;*/
+			background: #649ada;
+		}
+		.ruchka h2{
+			color: #fff;
+			line-height: 40px;
+			margin-left: 30px;
+		}
+		.tr2{
+			margin-left: 250px;
+			margin-top: -25px;
+			color: white;
+		}
+
+		.inputy{
+			float: left;
+			width: 650px;
+			height: 50px;
+			margin: 1px;
+			/*margin-left: 25px;*/
+			/*border: 1px solid black;*/
+		}
+		.inputy input{
+			width: 648px;
+			height: 50px;
+			margin-left: 2px;
+			border: 1px outset;
+		}
+		.a77 h3{
+			margin-top: -30px;
+			margin-left: 20px;
+		}
+		.ra1{
+			margin-top: 13px;
+		}
+		.iy85{
+			float: left;
+			width: 50px;
+			height: 50px;
+			border: 1px outset;
+			background: #8cbe3f;
+			color: white;
+		}
+		.kop{
+			margin-left: 15px;
+			margin-top: 15px;
+		}	
+		.container5{
+			width: 1050px;
+			height: 1100px;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+		}
+		.container6{
+			width: 1050px;
+			height: 130px;
+			margin: 0 auto;	
+			/*border: 1px solid black;*/
+		}
+		.boshlig{
+			width: 1000px;
+			height: 1100px;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+		}
+		.rtm{
+			float: left;
+			width: 260px;
+			height: 1100px;
+			/*border: 1px solid black;*/
+		}
+		.ongtaman{
+			width: 250px;
+			height: 500px;
+			margin: 1px;
+			/*border: 1px solid black;*/
+			background: #72c02c;
+		}
+		.chaptaman{
+			width: 250px;
+			height: 500px;
+			margin: 1px;
+			/*border: 1px solid black;*/
+			background: #0081bb;
+		}
+		.ongtaman div{
+			width: 250px;
+			height: 50px;
+			border: 1px solid #8ecd56;
+			color: white;
+			font-family: "Calibri";
+		}
+		.ongtaman div:hover{
+			background: #3d9bdd;
+		}
+		.chaptaman div{
+			width: 250px;
+			height: 50px;
+			border: 1px solid /*#0081bb*/black;
+		}
+		.ongtaman div h4{
+			margin-top: -25px;
+			margin-left: 20px;
+		}
+		.ongtaman div h5{
+			margin-top: 10px;
+		}
+		 .ongtaman div p{
+			margin-top: -18px;
+			margin-left: 20px;
+			font-weight: 900;
+		}
+		.chaptaman h2{
+			color: #fff;
+			margin-left: 20px;
+			font-family: "Calibri";
+		}
+		.chaptaman p{
+			color: #fff;
+			font-family: "Calibri";
+			margin-left: 20px;
+			font-size: 18px;
+		}
+		/*.oos{
+			float: left;
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+		}*/
+		.ootomon{
+			float: left;
+			width: 700px;
+			height: 1000px;
+			/*border: 1px solid black;*/
+		}
+		.it{
+			float: left;
+			width: 735px;
+			height: 1100px;
+			/*border: 1px solid black; */
+		}
+		.sa{
+			width: 735px;
+			height: 280px;
+			/*border: 1px solid red;*/
+		}
+		.wer{
+			float: left;
+			width: 367px;
+			height: 280px;
+			/*border: 1px solid green;*/
+		}
+		.wer2{
+			float: left;
+			width: 365px;
+			height: 280px;
+			/*border: 1px solid green;*/
+		}
+		.wer img{
+			margin-left: 85px;
+		}
+		.wer p{
+			color: #72c02c;
+			font-size: 1.6em;
+			text-align: center;
+			font-family: "Calibri";
+		}
+		.wer2 img{
+			margin-left: 85px;
+			margin-top: 15px;
+		}
+		.wer2 p{
+			color: #559dc8;
+			font-size: 1.6em;
+			text-align: center;
+			font-family: "Calibri";
+		}
+		.wer3{
+			float: left;
+			width: 367px;
+			height: 280px;
+			/*border: 1px solid green;*/
+		}
+		.wer4{
+			float: left;
+			width: 365px;
+			height: 280px;
+			/*border: 1px solid green;*/
+		}
+		.wer3 img{
+			margin-left: 85px;
+			margin-top: 15px;
+		}
+		.wer3 p{
+			color: #559dc8;
+			font-size: 1.6em;
+			text-align: center;
+			font-family: "Calibri";
+		}
+		.wer4 img{
+			margin-left: 85px;
+			margin-top: 30px;
+		}
+		.wer4 p{
+			color: #559dc8;
+			font-size: 1.6em;
+			text-align: center;
+			font-family: "Calibri";
+		}
+		.wer5{
+			float: left;
+			width: 366px;
+			height: 280px;
+			/*border: 1px solid green;*/
+		}
+		.wer6{
+			float: left;
+			width: 367px;
+			height: 280px;
+			/*border: 1px solid green;*/
+		}
+		.wer5 img{
+			margin-left: 85px;
+			margin-top: 30px;
+		}
+		.wer5 p{
+			color: #559dc8;
+			font-size: 1.6em;
+			text-align: center;
+			font-family: "Calibri";
+		}
+		.wer6 img{
+			margin-left: 85px;
+			margin-top: 20px;
+		}
+		.wer6 p{
+			color: #559dc8;
+			font-size: 1.6em;
+			text-align: center;
+			font-family: "Calibri";
+		}
+		.wer9{
+			float: left;
+			width: 735px;
+			height: 200px;
+			margin-top: 55px;
+			/*border: 1px solid green;*/
+		}
+		.wer9 h3{
+			margin-left: 30px;
+			font-family: "Time New Roman";
+		}
+		.wer9 p{
+			margin-left: 30px;
+			font-size: 19px;
+		}
+		.container7{
+			width: 1050px;
+			height: 110px;
+			margin-top: 90px;
+			/*border: 1px solid black;*/
+			background: #252d34;
+		}
+		.ter{
+			float: left;
+			width: 200px;
+			height: 110px;
+			/*border: 1px solid black;*/
+			color: #fff;
+			text-align: center;
+		}
+		.ter h3{
+			margin-top: 34px;
+			font-family: "Calibri"
+		}
+		.ter2{
+			float: left;
+			width: 250px;
+			height: 110px;
+			/*border: 1px solid black;*/
+			color: #fff;
+			text-align: center;
+			font-family: "Calibri"
+		}
+		.ter2 p{
+			margin-top: 34px;
+		}
+		.ter3{
+			float: left;
+			width: 300px;
+			height: 110px;
+			/*border: 1px solid black;*/
+			color: #fff;
+		}
+		.wif1{
+			float: left;
+			width: 50px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.wif2{
+			float: left;
+			width: 50px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.wif3{
+			float: left;
+			width: 50px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.wif4{
+			float: left;
+			width: 50px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.wif5{
+			float: left;
+			width: 50px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.ter3 div i{
+			margin-top: 45px;
+		}
+		/*.raqal h3{
+			color: white;
+			font-family: "Calibri";
+			margin-top: 34px;
+			margin-left: ;
+		}*/
+		.raqal div i{
+			color: white;
+			margin-top: 45px;
+			margin-left: 15px;
+		}
+		.ttu{
+			float: left;
+			width: 50px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.dar{
+			float: left;
+			width: 150px;
+			height: 110px;
+			/*border: 1px solid black;*/
+		}
+		.dar h3{
+			color: white;
+			margin-top: 23px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+	<div class="cho-boshlig">
+		<div class="chap-tomon">
+			<div class="rasm"></div>
+			<div class="text">
+				<h1>
+					Балама Энергиясы
+				</h1>
+				<h2>
+					Энергия будущего - 
+					Ваша алтернативная Энергия
+				</h2>
+			</div>
+		</div>
+
+		<div class="ong-tomon">
+			<div class="oon">
+				<div class="rr"><a href="#"><font color="black"><i class="fa-solid fa-location-dot fa-flip"></i></font></a></div>
+				<div class="text-p">
+					Республика Казахстан, город
+					Атырау, мкр. Жулдыз, строение
+					44 "Б
+				</div>
+			</div>
+
+			<div class="raqm">
+				<div class="ra1"><a href="https://Tel.com/"><font color="black"><i class="fa-solid fa-phone fa-shake"></i></font></a></div>
+				<div class="a77">
+					<h3>
+					+7 (7122) 310-108 <br>
+					+7 775 658 79 28
+					</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="containe2">
+			<div class="salom">
+		<div class="x1">
+				<div class="sal1">Главнай</div>
+				<div class="sal2">Наши услуги</div>
+				<div class="sal3">Навoсти</div>
+				<div class="sal4">Наши адрес</div>
+				<div class="sal5">Oтзывы</div>
+		</div>
+			</div>
+	</div>
+
+	<div class="container3">
+		<div class="bloc6558">
+			<div class="m">
+				<a href="https://www.instagram.com/puma"><div class="fr"></div></a>
+				<a href="https://www.instagram.com/puma"><div class="fr2"></div></a>
+			</div>
+			<div class="rm">
+				<a href="https://www.instagram.com/puma"><div class="gh"></div></a>
+				<a href="https://www.instagram.com/puma"><div class="ge"><img src="dfgdg.jpg" width="235px" height="218px"></div></a>
+				<a href="https://www.instagram.com/puma"><div class="go"><img src="dfhgdhfd.jpg" width="235px" height="218px"></div></a>
+			</div>
+		<div class="pass">
+			<div class="garipo"></div>
+			<h4>Поставки по своему Казахстану оборудования для автономной и бесперебойный электрофикатии,хольодинного
+			оборудования и много другого.На нашем сайте. Вы можете выбрать товар, заказать через интернет</h4>
+			<div class="gari"></div>
+		</div>
+		</div>
+	</div>
+	<br><br>
+	<div class="container4">
+		<div class="ruchka">
+			<h2>
+				Отправить заявку
+			</h2>
+			<div class="tr2"><i class="fa-solid fa-pen fa-2xl fa-beat-fade"></i></div>
+		</div>
+		<div class="inputy">
+			<input type="email"  placeholder="Поиск по сайту...">
+		</div>
+		<div class="iy85">
+			<a href="https://www.instagram.com/https://sanjar_8855"><div class="kop"><font color="white"><i class="fa-solid fa-magnifying-glass fa-beat"></i></font></div></a>
+			</div>
+	</div>
+<br><br>
+	<div class="container5">
+		<div class="boshlig">
+			<div class="rtm">
+		<div class="ongtaman">
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><h4>Электротехнической<br> оборудования</h4></div>
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><p>Энергетическое оборудования</p></div>
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><p>Генераторы</p></div>
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><p> Насосное оборудования</p></div>
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><p> Редукторы</p></div>
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><p> Электродвигатели</p></div>
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><h4>Прогревочное <br>  трансформатры</h4></div>
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><p>Устройства катоной защиты</p></div>
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><h4>Гидрогеологическое <br> оборудования </h4></div>
+			<div><h5><i class="fa-solid fa-chevron-right"></i></h5><h4>Электромагнитные <br> расходомеры </h4></div>
+		</div>
+		<br><br>
+		<div class="chaptaman">
+			<h2>Вид Деятельности <br> компании</h2>
+			<br>
+			<hr>
+			<br>
+			<p>В сфере розничной и оптовой</p>
+			<p> продажей  элетротехнический</p>
+			<p> продукцией, светотехники,</p>
+			<p> альтернавные источники</p>
+			<p> элетроэнегии-солнечние</p>
+			<p>  панкли и ветрогенераторы ,</p>
+			<p> изготовления электрощитового</p>
+			<p> оборудования.Услуги:монтаж,</p>
+			<p> наладка и сервисное </p>
+			<p>обслуживания</p>
+			<p> элетрооборудования и</p>
+			<p>  промышленной автоматики.</p>
+			<p> Услугу электролабаратории и</p>
+			<p> энергоэкспертизы.</p>
+		</div>
+		</div>
+			<div class="it">
+				<div class="sa">
+					<div class="wer">
+						<a href=""><img src="sim.jpg"></a>
+						<p>
+						Кабельно-проводниковая
+						 продукция	
+						</p>
+					</div>
+					<div class="wer2">
+						<a href="#"><img src="Без имени-6.jpg"></a>
+						<p>
+						Осветительное <br>
+						 оборудования	
+						</p>
+					</div>
+				</div>
+				<div class="sa">
+					<div class="wer3">
+						<a href="#"><img src="tok.jpg"></a>
+						<p>
+							Низковольтная аппаратура
+						</p>
+					</div>
+					<div class="wer4">
+						<a href="#"><img src="matortok.jpg"></a>
+						<p>
+							Установочная продукция 
+						</p>
+					</div>
+				</div>
+				<div class="sa2">
+					<div class="wer5">
+						<img src="paqir.jpg">
+						<p>
+							Кабеленесущие системы 
+						</p>
+					</div>
+					<div class="wer6">
+						<img src="kluchatr.jpg">
+						<p>
+							 Щитовое оборудования
+						</p>
+					</div>
+					<div class="wer9">
+						<h3>
+							О компании
+						</h3>
+						<p>
+							Поставки по всему Казахстану оборудования для автономной и бесперебойной электрофикации,
+			
+							 холодильного оборудования и много другого. На нашем сайте Вы можете выбрать товар,
+							
+							  заказать через интернет или по телефону. Закупки оборудования производится напрямую у
+							
+							   производителей, что позволяет нам предложить Вам минимальные цены.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+		<div class="container7">
+			<div class="ter">
+				<h3>Copyright 2016</h3>
+			</div>
+			<div class="ter2">
+				<p>
+					Наши странички в соц. сетях:
+				</p>
+			</div>
+			<div class="ter3">
+				<div class="wif1"><a href="https://www.facebook.com/ "><font color="white"><i class="fa-brands fa-facebook fa-2xl  fa-beat-fade f"></i></font></a></div>
+				<div class="wif2"><a href="https://www.instagram.com/"><font color="white"><i class="fa-brands fa-instagram fa-2xl  fa-fade  fa-beat-fade"></i></font></a></div>
+				<div class="wif3"><a href="#"><font color="white"><i class="fa-brands fa-square-odnoklassniki fa-2xl  fa-fade  fa-beat-fade"></i></font></a></div>
+				<div class="wif4"><i class="fa-brands fa-twitter fa-2xl   fa-bounce"></i></div>
+				<div class="wif5"><i class="fa-brands fa-bootstrap fa-2xl  fa-fade  fa-beat-fade"></i></div>
+			</div>
+			<div class="raqal">
+				<div class="ttu"><i class="fa-solid fa-phone fa-2xl fa-shake"></i></div>
+				<div class="dar">
+				<h3>
+					+7 (7122) 310-108 <br>
+					+7 775 658 79 28
+				</h3>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+	</div>
+
+</body>
+</html>
